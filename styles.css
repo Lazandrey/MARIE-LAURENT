@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fd7479;
+  gap: 1rem;
+}
+.page-wrapper {
+  min-height: 100vh;
+  padding: 0 5rem;
+}
+.logo-img {
+  height: 2rem;
+  background-color: black;
+  transition: 1s;
+}
+.logo-img:hover {
+  background-color: #fd7479;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.nav-li a:hover {
+  color: #fd7479;
+}
+
+.main-logo {
+  height: 8rem;
+  background-color: #fd7479;
+}
+
+.main-h1 {
+  color: white;
+}
+.main-p {
+  color: white;
+  width: 20rem;
+  text-align: center;
+}
+.am-btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: white;
+  padding: 1rem 1rem;
+  border: none;
+  font-weight: bold;
+}
+.am-btn:active {
+  scale: 0.8;
+}
+.fp-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+.fp-h1 {
+  text-align: center;
+}
+.dash-img {
+  width: 20rem;
+  height: 3rem;
+}
+.projecs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pr-img {
+  width: 50%;
+}
